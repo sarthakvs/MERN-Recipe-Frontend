@@ -19,7 +19,7 @@ const Login = () => {
 
     try {
       let response = await fetch(
-        "https://mern-recipe-backend.netlify.app/auth/login",
+        "https://mern-recipe-backend-lo27.onrender.com/auth/login",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
