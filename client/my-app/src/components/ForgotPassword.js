@@ -19,7 +19,7 @@ const UpdatePassword = () => {
 
     try {
       const response = await fetch(
-        "https://mern-recipe-backend-q9wb.onrender.com/auth/forgotpassword",
+        "https://mern-recipe-backend.netlify.app/auth/forgotpassword",
         {
           method: "PUT",
           headers: {

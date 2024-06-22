@@ -53,7 +53,7 @@ const AddRecipe = () => {
 
     try {
       const response = await fetch(
-        "https://mern-recipe-backend-q9wb.onrender.com/auth/recipe",
+        "https://mern-recipe-backend.netlify.app/auth/recipe",
         {
           method: "POST",
           headers: {

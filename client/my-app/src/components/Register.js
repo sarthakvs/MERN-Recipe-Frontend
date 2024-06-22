@@ -20,7 +20,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        "https://mern-recipe-backend-q9wb.onrender.com/auth/register",
+        "https://mern-recipe-backend.netlify.app/auth/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

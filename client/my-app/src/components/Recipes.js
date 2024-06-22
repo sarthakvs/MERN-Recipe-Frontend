@@ -69,7 +69,7 @@ const Recipes = () => {
     try {
       // Send a POST request to the LikedList controller
       const response = await fetch(
-        `https://mern-recipe-backend-q9wb.onrender.com/auth/likedRecipes/${recipeId}`,
+        `https://mern-recipe-backend.netlify.app/auth/likedRecipes/${recipeId}`,
         {
           method: "POST",
         }
@@ -98,7 +98,7 @@ const Recipes = () => {
     try {
       if (e.target.value) {
         let Searchedrecipes = await fetch(
-          `https://mern-recipe-backend-q9wb.onrender.com/auth/searchRecipes/${e.target.value}`,
+          `https://mern-recipe-backend.netlify.app/auth/searchRecipes/${e.target.value}`,
           {
             method: "GET",
             headers: {
