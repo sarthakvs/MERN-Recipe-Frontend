@@ -19,7 +19,7 @@ const UpdatePassword = () => {
 
     try {
       const response = await fetch(
-        "https://localhost:5000/auth/forgotpassword",
+        "https://mern-recipe-backend-q9wb.onrender.com/auth/forgotpassword",
         {
           method: "PUT",
           headers: {
